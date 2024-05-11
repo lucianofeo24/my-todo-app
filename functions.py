@@ -1,4 +1,4 @@
-FILEPATH = '/Users/lucianofeo/Desktop/Personale/Python Mega Course/ToDoList/todos.txt'
+FILEPATH = 'todos.txt'
 
 def get_todos(filepath=FILEPATH):
     with open(filepath, 'r') as file_local:
